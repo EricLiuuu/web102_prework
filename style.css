@@ -21,7 +21,7 @@ body {
 
 .stats-container {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     cursor: pointer;
 }
 .stats-container:hover{
