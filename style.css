@@ -77,3 +77,8 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+#search_input {
+    height: 30px;
+    border-radius: 5px;
+}
