@@ -197,3 +197,10 @@ searchBtn.addEventListener('click', () => {
     deleteChildElements(gamesContainer);
     addGamesToPage(SearchedGames);
 });
+
+const resetBtn = document.getElementById("reset_btn");
+resetBtn.addEventListener('click', () => {
+    searchResult.value = "";
+    deleteChildElements(gamesContainer);
+    addGamesToPage(GAMES_JSON);
+})
