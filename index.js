@@ -201,6 +201,7 @@ searchBtn.addEventListener('click', () => {
 const resetBtn = document.getElementById("reset_btn");
 resetBtn.addEventListener('click', () => {
     searchResult.value = "";
+    searchResult.placeholder = "Search your games...";
     deleteChildElements(gamesContainer);
     addGamesToPage(GAMES_JSON);
 })
