@@ -78,6 +78,12 @@ button {
     border-radius: 7px;
 }
 
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+    background-color: lightblue;
+}
+
 #search_input {
     height: 30px;
     border-radius: 5px;
